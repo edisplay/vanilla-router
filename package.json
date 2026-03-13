@@ -2,9 +2,10 @@
   "name": "vanilla-router",
   "version": "1.2.8",
   "description": "JS vanilla Router",
-  "main": "index.js",
-  "typings": "index.d.ts",
+  "main": "dist/vanilla-router.js",
+  "typings": "dist/vanilla-router.d.ts",
   "scripts": {
+    "build": "node scripts/build.js",
     "test": "mocha"
   },
   "keywords": [
@@ -20,7 +21,14 @@
   "author": "grigore@odajiu.eu",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "@types/chai": "^4.3.0",
+    "esbuild": "^0.24.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "chai": "^4.3.0",
+    "mocha": "^10.0.0",
+    "terser": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
   }
 }

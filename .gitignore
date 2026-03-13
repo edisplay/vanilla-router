@@ -1,4 +1,7 @@
 ### Node template
+CLAUDE.md
+.idea
+.vscode
 # Logs
 logs
 *.log
