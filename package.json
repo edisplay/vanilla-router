@@ -1,6 +1,6 @@
 {
   "name": "vanilla-router",
-  "version": "1.2.8",
+  "version": "2.0.0",
   "description": "JS vanilla Router",
   "main": "dist/vanilla-router.js",
   "typings": "dist/vanilla-router.d.ts",
